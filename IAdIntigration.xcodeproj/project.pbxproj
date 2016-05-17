@@ -14,6 +14,8 @@
 		9BF0F5DF1CE45D66000F6A3E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BF0F5DE1CE45D66000F6A3E /* Images.xcassets */; };
 		9BF0F5E21CE45D66000F6A3E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BF0F5E01CE45D66000F6A3E /* LaunchScreen.xib */; };
 		9BF0F5EE1CE45D66000F6A3E /* IAdIntigrationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF0F5ED1CE45D66000F6A3E /* IAdIntigrationTests.m */; };
+		9BF0F5F81CE45D93000F6A3E /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BF0F5F71CE45D93000F6A3E /* iAd.framework */; };
+		9BF0F5FA1CE47D86000F6A3E /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BF0F5F91CE47D85000F6A3E /* AddressBook.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		9BF0F5E71CE45D66000F6A3E /* IAdIntigrationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IAdIntigrationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BF0F5EC1CE45D66000F6A3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BF0F5ED1CE45D66000F6A3E /* IAdIntigrationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IAdIntigrationTests.m; sourceTree = "<group>"; };
+		9BF0F5F71CE45D93000F6A3E /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		9BF0F5F91CE47D85000F6A3E /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BF0F5FA1CE47D86000F6A3E /* AddressBook.framework in Frameworks */,
+				9BF0F5F81CE45D93000F6A3E /* iAd.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +69,7 @@
 		9BF0F5C51CE45D64000F6A3E = {
 			isa = PBXGroup;
 			children = (
+				9BF0F5F71CE45D93000F6A3E /* iAd.framework */,
 				9BF0F5D01CE45D65000F6A3E /* IAdIntigration */,
 				9BF0F5EA1CE45D66000F6A3E /* IAdIntigrationTests */,
 				9BF0F5CF1CE45D65000F6A3E /* Products */,
@@ -88,6 +95,7 @@
 				9BF0F5DB1CE45D65000F6A3E /* Main.storyboard */,
 				9BF0F5DE1CE45D66000F6A3E /* Images.xcassets */,
 				9BF0F5E01CE45D66000F6A3E /* LaunchScreen.xib */,
+				9BF0F5F91CE47D85000F6A3E /* AddressBook.framework */,
 				9BF0F5D11CE45D65000F6A3E /* Supporting Files */,
 			);
 			path = IAdIntigration;

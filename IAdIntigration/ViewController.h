@@ -7,9 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <iAd/iAd.h>
+#import <AddressBook/AddressBook.h>
+NSString *const kDenied = @"Access to address book is denied";
+NSString *const kRestricted = @"Access to address book is restricted";
 
-@interface ViewController : UIViewController
-
+@interface ViewController : UIViewController<ADBannerViewDelegate>
+@property(nonatomic,strong)  ADBannerView *bannerView;
+@property  ABAddressBookRef addressBook;
 
 @end
 
